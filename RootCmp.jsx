@@ -1,3 +1,5 @@
+import { UserPreview } from './cmps/UserPreview.jsx'
+
 export function RootCmp() {
     return <section className="app">
         <header>
@@ -5,7 +7,7 @@ export function RootCmp() {
         </header>
 
         <main>
-            { /* TODO: Create a component */ }
+            { /* TODO: Render a component */ }
         </main>
     </section>
 }
