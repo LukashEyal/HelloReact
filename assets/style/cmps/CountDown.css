@@ -1,0 +1,9 @@
+.countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e6dbfa;
+}
+
+.countdown.red {
+  color: red;
+}

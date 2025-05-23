@@ -1,0 +1,58 @@
+.season-clock {
+  width: 300px;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  user-select: none;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.season-clock:hover img {
+  transform: scale(1.1); /* optional zoom on hover */
+}
+
+.season-clock.light {
+  background-color: #e6dbfa; /* soft light purple background */
+  color: #1a1a2e;             /* dark text for contrast */
+  box-shadow: 0 0 20px #ff00ff88, 0 0 10px #ff66ff55;
+}
+
+.season-clock.dark {
+  background-color: #1a1a2e;
+  color: #f8f8f8;
+  box-shadow: 0 0 20px #00ffff80;
+}
+
+
+.season-clock.light img {
+  width: 560px;
+  height: 360px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 5px #ff00ff); /* pink glow for light theme */
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+}
+
+
+.season-clock.dark img {
+ width: 560px;
+  height: 360px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 5px #00ffff); /* cyan glow for dark theme */
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+}
+
